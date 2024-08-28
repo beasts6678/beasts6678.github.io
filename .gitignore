@@ -41,6 +41,3 @@
 # .DS_Store
 # Thumbs.db
 
-*
-!.gitignore
-!/dist/browser/
