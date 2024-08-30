@@ -4,6 +4,8 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-T4DJ4G7BTM"></script>
   <script>
+    console.log("hostname:: "+window.location.hostname)
+    console.log("equal?? "+window.location.hostname === 'beast.github.io');
     if(window.location.hostname === 'beast.github.io'){
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
